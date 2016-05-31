@@ -21,10 +21,23 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+//       NSArray *pushTypeArray =@[@"2801",@"2802",@"2803",@"1001",@"1002",@"1003",@"1004",@"1005",@"2532",@"2531",@"1011",@"1012",@"1013",@"1014",@"1015",@"1016",@"2501",@"2502",@"2503",@"2504",@"2505",@"2506",@"2507",@"2508",@"2509",@"2510",@"2511",@"2512",@"2513",@"2541",@"2542",@"2543",@"2544",@"2545",@"2546",@"2547"];
+//    
+//    NSString *str =[NSString stringWithFormat:@"%@",@"2801"];
+//    
+//    if ([pushTypeArray containsObject:str]) {
+//        
+//        
+//    }
+    
    Person *obj= [[Person alloc]init];
     
+    NSString *str = obj;
+    
+    [str length];
     
     [obj addName];
+  //  [obj addName];
     
 //    objc_msgSend 在使用时都被强制转换了一下，这是因为 objc_msgSend 函数可以hold住各种不同的返回值以及多个参数，但默认情况下是没有参数和返回值的。如果我们把调用 showAge 方法改成这样：
 //    
