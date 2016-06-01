@@ -14,6 +14,9 @@
 		18004FC51CFD657500C31458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18004FC41CFD657500C31458 /* Assets.xcassets */; };
 		18004FC81CFD657500C31458 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18004FC61CFD657500C31458 /* LaunchScreen.storyboard */; };
 		18004FD11CFD69DD00C31458 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18004FD01CFD69DD00C31458 /* Person.m */; };
+		18AD8B541CFEB7A0008DA829 /* UIViewController+RunDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD8B531CFEB7A0008DA829 /* UIViewController+RunDealloc.m */; };
+		18AD8B571CFEB844008DA829 /* NSMutableArray+NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD8B561CFEB844008DA829 /* NSMutableArray+NullSafe.m */; };
+		18AD8B5A1CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD8B591CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		18004FC91CFD657500C31458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18004FCF1CFD69DD00C31458 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		18004FD01CFD69DD00C31458 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18AD8B521CFEB7A0008DA829 /* UIViewController+RunDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RunDealloc.h"; sourceTree = "<group>"; };
+		18AD8B531CFEB7A0008DA829 /* UIViewController+RunDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RunDealloc.m"; sourceTree = "<group>"; };
+		18AD8B551CFEB844008DA829 /* NSMutableArray+NullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NullSafe.h"; sourceTree = "<group>"; };
+		18AD8B561CFEB844008DA829 /* NSMutableArray+NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NullSafe.m"; sourceTree = "<group>"; };
+		18AD8B581CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NullSafeDic.h"; sourceTree = "<group>"; };
+		18AD8B591CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NullSafeDic.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,12 @@
 				18004FBC1CFD657500C31458 /* AppDelegate.m */,
 				18004FBE1CFD657500C31458 /* ViewController.h */,
 				18004FBF1CFD657500C31458 /* ViewController.m */,
+				18AD8B521CFEB7A0008DA829 /* UIViewController+RunDealloc.h */,
+				18AD8B531CFEB7A0008DA829 /* UIViewController+RunDealloc.m */,
+				18AD8B551CFEB844008DA829 /* NSMutableArray+NullSafe.h */,
+				18AD8B561CFEB844008DA829 /* NSMutableArray+NullSafe.m */,
+				18AD8B581CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.h */,
+				18AD8B591CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.m */,
 				18004FCF1CFD69DD00C31458 /* Person.h */,
 				18004FD01CFD69DD00C31458 /* Person.m */,
 				18004FC11CFD657500C31458 /* Main.storyboard */,
@@ -155,9 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18004FC01CFD657500C31458 /* ViewController.m in Sources */,
+				18AD8B571CFEB844008DA829 /* NSMutableArray+NullSafe.m in Sources */,
 				18004FBD1CFD657500C31458 /* AppDelegate.m in Sources */,
 				18004FD11CFD69DD00C31458 /* Person.m in Sources */,
+				18AD8B541CFEB7A0008DA829 /* UIViewController+RunDealloc.m in Sources */,
 				18004FBA1CFD657500C31458 /* main.m in Sources */,
+				18AD8B5A1CFEBAB6008DA829 /* NSMutableDictionary+NullSafeDic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +322,7 @@
 				18004FCE1CFD657500C31458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
